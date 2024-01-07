@@ -1,0 +1,44 @@
+Nom : Mangiante
+Prénom : Enzo
+Groupe TP : Moi
+
+
+Consigne : Ci-dessous, répondre à la place des « ... ».
+
+
+=====[ Temps ]==================================================================
+
+Temps passé sur la V1 : 1 heures 45 minutes
+Temps passé sur la V2 : 2 heures 0 minutes
+Pour la V2 on ne tiendra pas compte du temps passé sur la V1.
+Bien sûr, les temps renseignés ici ne sont pas pris en compte dans la notation.
+
+
+=====[ Questions ]==============================================================
+
+Indiquer la relation UML entre Cercle et le Point centre du cercle.
+-------------------------------------------------------------------
+
+Cercle 1..1 ----- 1..1 Point
+
+
+Comment est réalisée l'exigence E18 ?
+-------------------------------------
+
+Avec l'encapsulation (priavte) et des accesseurs (getters et setters).
+
+
+
+=====[ Explications ]===========================================================
+
+BUG / ERREUR : 
+
+J'ai ce problème en local, j'ai pu le réglé mais cela implique de tester les points X et Y séparement.
+
+%FAILED 1,testCreerDepuisPointsDiametralementOpposes(TP3.CercleTest)
+%TRACES 
+java.lang.AssertionError: centre = (1,0) expected: TP3.Point<(1.0, 0.0)> but was: TP3.Point<(1.0, 0.0)>
+
+Problème pas réglé.
+java.lang.AssertionError: Le centre doit etre correct expected:<(1.0, 0.0)> but was:<(0.0, 0.0)>
+...
